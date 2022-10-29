@@ -1,0 +1,47 @@
+baseURL: https://swiftbrainz.github.io
+languageCode: en-us
+title: swiftbrainz
+theme: papermod
+
+params:
+  disableThemeToggle: false
+  defaultTheme: dark
+  socialIcons:
+    - name: GitHub
+      url: "https://github.com/robertsan96"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/robertsandru/"
+    - name: Twitter
+      url: "https://twitter.com/rsdum9623"
+  showShareButtons: true
+  showReadingTime: true
+  showBreadCrumbs: true
+  showCodeCopyButtons: true
+  homeInfoParams:
+    Title: Home
+    Content: ""
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archive/
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
