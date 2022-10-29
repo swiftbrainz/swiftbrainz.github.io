@@ -1,7 +1,7 @@
 baseURL: https://swiftbrainz.github.io
 languageCode: en-us
 title: swiftbrainz
-theme: papermod
+theme: PaperMod
 
 params:
   disableThemeToggle: false
